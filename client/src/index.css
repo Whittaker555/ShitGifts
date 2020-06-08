@@ -1,0 +1,81 @@
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttonsDiv {
+  align-items: center;
+  justify-content: center;
+}
+.header{
+  color: #00FF00;
+}
+
+h1{
+  font-size: 100px;
+  margin: 0;
+}
+h2{
+  font-size: 80px;
+  margin: 0;
+}
+h3{
+  font-size: 60px;
+  margin: 0;
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+color: #E01A76;
+}
+
+.btn-primary {
+color: #fff;
+border-color: #1861ac;
+}
+
+body{
+  background-color: #333333;
+}
+
+div{
+  color: white
+}
+
+button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #00FF00;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin: 10px;
+}
+
+  button:hover {
+      background: #434343;
+      letter-spacing: 1px;
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all 0.4s ease 0s;
+  }
