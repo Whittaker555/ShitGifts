@@ -1,0 +1,12 @@
+language: generic 
+sudo: required
+services:
+    - docker 
+
+# Build testing container
+before_install:
+    - docker build -t dynamisdevelopment/test-container -f .
+
+# Run Tests
+script:
+    - docker run -e CI=true dynamisdevelopment/test-container npm test -- --coverage
