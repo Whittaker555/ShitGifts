@@ -15,10 +15,10 @@ services:
 deploy: 
     provider: elasticbeanstalk 
     region: "eu-west-1"
-    app: "ShitGiftsApplication-env"
+    app: "shit-gifts-application"
     env: "ShitGiftsApplication-env" 
     bucket_name: "elasticbeanstalk-eu-west-1-997997896234"
-    bucket_path: "ShitGiftsApplication-env"
+    bucket_path: "shit-gifts-application"
     on:
         branch: master
     access_key_id: $AWS_ACCESS_KEY
